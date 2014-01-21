@@ -4,10 +4,19 @@
   "name": "Rap Genius Search",
   "version": "0.1",
 
+  "permissions": [
+  	"contextMenus"
+  ],
+
   "description": "Fucking around with chrome extensions. Rap Genius search in your toolbar.",
-  
+
+  "background": {
+    "scripts": ["highlight_search.js"]
+  },
+
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   }
+
 }
