@@ -11,7 +11,9 @@
   "description": "Fucking around with chrome extensions. Rap Genius search in your toolbar.",
 
   "background": {
-    "scripts": ["highlight_search.js", "popup.js"]
+    "scripts": ["/js/highlight_search.js", 
+                "/js/popup.js", 
+                "/js/jquery-2.1.0.min.js"]
   },
 
   "browser_action": {
